@@ -1,4 +1,4 @@
-# flutter_layout_app
+# flutter-sample-todo
 
 A new Flutter application.
 
