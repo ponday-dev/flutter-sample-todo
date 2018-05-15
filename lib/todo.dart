@@ -27,8 +27,8 @@ class Todo {
     completed = map[columnCompleted] == 1;
   }
 
-  Map toMap() {
-    Map map = {
+  Map<String, dynamic> toMap() {
+    Map<String, dynamic> map = {
       columnTitle: title,
       columnCompleted: completed ? 1 : 0
     };
